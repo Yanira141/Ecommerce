@@ -1,0 +1,73 @@
+H1{
+    color: white;
+    font-family: 'Bebas+Neue' , sans-serif;
+    
+}
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 64px 64px 64px 64px;
+ 
+}
+.contador{
+    border-radius: 16px;
+}
+header div a{
+        text-decoration: none;
+        color: gray;
+}
+body{ 
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+h1{font-size: 48.83px;}
+h2{font-size: 39.06px;}
+h3{font-size: 31.25px;}
+h4{font-size: 25.00px;}
+h5{font-size: 20.00px;}
+h6{font-size: 16.00px;}
+small{font-size:12.80px}
+ 
+.card{
+    display: flex;
+   border: 2px solid gray;
+    padding: 32px;
+    border-radius: 16px;
+    gap:32px;
+   
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding:32px;
+    gap:32px;
+    
+}
+.procederalpago{
+    text-align: center;
+    width: 540px;
+    height: 308px;
+    border-radius: 64px ;
+    border: solid;
+    border-color: rgba(255, 166, 0, 0.778);
+   
+}
+.card .imagen{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 64px 64px 64px 64px;
+    flex-direction: row;
+}

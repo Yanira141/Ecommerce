@@ -1,0 +1,272 @@
+:root{
+    /*PALETA DE COLORES*/
+--primario: rgba(255, 166, 0, 0.778);
+--negro:  black;
+--blaco: white;
+--gris: gray;
+--error:red;
+
+
+}
+header.header-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+input header.header-inner{
+    border: 2px  solid rgba(255, 166, 0, 0.778);
+}
+h1 header.header-inner{
+    color:white;
+    margin: 64px;
+    
+}
+H1{
+    color: white;
+    font-family: 'Bebas+Neue' , sans-serif;
+    margin: 50px;
+    
+}
+.wrap{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h2{
+    color: black;
+}
+
+
+body{ 
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+h1{font-size: 48.83px;}
+h2{font-size: 39.06px;}
+h3{font-size: 31.25px;}
+h4{font-size: 25.00px;}
+h5{font-size: 20.00px;}
+h6{font-size: 16.00px;}
+small{font-size:12.80px}
+
+h1{
+    color: black;
+}
+.buscar{
+    text-align: center;
+    width: 100%;
+}
+.menu li{
+    display:inline-block;
+    margin-right: 16px;
+    
+}
+.menu{
+    text-align: center;
+}
+.mispedidos li{
+    display: inline-block;
+    margin-right: 32px;
+}
+.mispedidos{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.button{
+background-color: gray;
+color: white;
+display: inline-block;
+padding: 16px;
+text-align: center;
+border-radius: 16px;
+
+}
+.button.cta{
+    background-color: gray;
+    color: white;
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 16px;
+    position: relative;
+    margin-right: 32px;
+    
+}
+.botones{
+    margin: 32px;
+    display: flex;
+
+}
+
+
+.button:hover{
+    background-color: var(--primario);
+    color: black;
+}
+a:hover{
+    color: var(--primario)
+}
+.verofertas{
+    background-color:gray;
+    color: white;
+    display: inline-block;
+    padding: 16px 64px 16px 64px;
+    text-align: center;
+    border-radius: 16px;
+}
+.search{
+    border-radius: 16px;
+    width: 100%;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    
+}
+footer.search{
+    border-radius: 16px;
+    border: none;
+    display: inline-block;
+    padding: 8px 32px 8px 32px;
+    text-align: center;
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: white;
+    
+    display: inline-block;
+    padding: 16px;
+    text-align: center;
+    border-radius: 16px; 
+
+}
+.piedepag{
+    list-style: none;
+}
+p{
+    color: black;
+}
+.listado{
+    display: flex;
+    justify-content: space-between;
+}
+.garantias{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.politica{
+    
+        display: flex;
+        justify-content: space-around;
+}
+.newsletter{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+.figure{
+    margin: 0;
+}
+section.productos{
+    display: flex;
+}
+.card figure img{
+    max-width: 100%;
+}
+.card .figure{
+    overflow: hidden;
+    max-height: 240px;
+}
+.card{
+    padding: 64px;
+}
+img{
+    border-radius: 32px;
+}
+ul.redes{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+section.mejoresproductos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(fotosmejores.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 108px;
+}
+.volver{
+    text-align: center;
+   background-color: black;
+   padding: 30px;
+}
+.volverarriba{
+    color: white;
+}
+.listado{
+    padding: 52px;
+}
+.cajas{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.error{
+    display: none;
+    color: red;
+}
+main.inicia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+input#Spam {
+    background-color: var(--primario);
+}
+section.productos{
+    display:flex;
+    gap: 64px;
+}
+.testimonios{
+    text-align: center;
+}
+.contador{
+    
+    color: black;
+    right:-5px;
+    top: -5px;
+    position: absolute;
+    background-color: white;
+   width: 24px;
+   height: 24px;
+    border-radius: 50%;
+}
+.numerocontador {
+    margin-top: 4px;
+    display: block;
+    text-align: center;
+}
+footer.search{
+    border-radius: 16px;
+    border: none;
+    display: inline-block;
+    padding: 8px 32px 8px 32px;
+    text-align: center;
+}   

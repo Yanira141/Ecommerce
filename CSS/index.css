@@ -1,0 +1,60 @@
+header.header-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+H1{
+    color: white;
+    font-family: 'Bebas+Neue' , sans-serif;
+    margin: 50px;
+    
+}
+.buscar{
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.menu li{
+    display:inline-block;
+    
+}
+.menu{
+    text-align: center;
+}
+.mispedidos li{
+    display: inline-block;
+}
+.mispedidos{
+    text-align: center;
+}
+
+.carrito{
+    position:relative
+}    
+
+
+
+.divisa{
+display: inline;
+}
+.mejoresproductos{
+display: inline;
+}
+.productos{
+    display: inline-block;
+    
+}
+.button{
+    background-color: t;
+}
+
+footer.search{
+    border-radius: 16px;
+    border: none;
+    display: inline-block;
+    padding: 8px 32px 8px 32px;
+    text-align: center;
+}   

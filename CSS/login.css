@@ -1,0 +1,24 @@
+.cajasinicio{
+    width: 100%;
+    height: 75%;
+    padding: 64px;
+    border: 2px solid rgba(255, 166, 0, 0.778);
+    border-radius: 16px;
+}
+
+section.formularios {
+    display: flex;
+    gap: 32px;
+
+}
+.card{
+    display: flex;
+    gap: 64px;
+}
+input{
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid rgba(255, 166, 0, 0.778);
+    background-color: whitesmoke;
+
+}
